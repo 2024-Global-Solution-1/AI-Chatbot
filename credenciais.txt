@@ -1,0 +1,29 @@
+Vicenzo Massao - 554833
+Erick Alves - 556862
+Luiz Heimberg - 556864
+
+
+
+
+Telegram Bot:
+
+Hajimeta_bot
+DayScapeBot 554833
+Token: 6617612465:AAFJ0yIXdDKCLkbnU7sD6aDirdkwHbNetlQ
+
+
+
+Watson Assitant:
+
+API Key: 8bht6BRABGQOZgo3LPd5ox9MmBZNd9cQAqYQE21C9nxR
+Endpoint: https://api.au-syd.assistant.watson.cloud.ibm.com/instances/e6fa2a69-d66a-437f-b9cd-0d8e302517f8
+assistant ID: d574d6f0-57cf-4d35-90e2-d17c4b264c2a
+
+Text-to-Speech:
+apikey: 0MAwyoldYGUbQgx8DgRZmpBCjvxWRzqTbsl6l30En7X9
+endpoint: https://api.au-syd.text-to-speech.watson.cloud.ibm.com/instances/45ce551e-7cc7-4a1b-bd3d-fa596cfb9c0b
+
+Speech-to-Text:
+
+apikey: uN4EQ2HZydqV1qWq2RpTDy-eIjuCbVS-jEstbPVQQCQA
+endpoint: https://api.au-syd.speech-to-text.watson.cloud.ibm.com/instances/ddcf9768-3d25-4557-bf1e-0f8df40f5000

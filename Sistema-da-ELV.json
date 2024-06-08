@@ -1,0 +1,1440 @@
+{
+  "intents": [
+    {
+      "intent": "Cadastro",
+      "examples": [
+        {
+          "text": "Como faço para cadastrar no sistema de vocês?"
+        },
+        {
+          "text": "Desejo fazer um registro"
+        },
+        {
+          "text": "Desejo Realizar um cadastro"
+        },
+        {
+          "text": "Desejo registrar-me"
+        },
+        {
+          "text": "Eu posso me cadastrar?"
+        },
+        {
+          "text": "Onde fica a opção de Cadastrar?"
+        },
+        {
+          "text": "Preciso de Ajuda para Cadastrar"
+        },
+        {
+          "text": "Quais tipos de cadastro vocês possuem?"
+        },
+        {
+          "text": "Quero abrir uma conta"
+        },
+        {
+          "text": "Quero adicionar meus dados"
+        },
+        {
+          "text": "Quero criar um perfil."
+        },
+        {
+          "text": "Quero me cadastrar"
+        }
+      ],
+      "description": "Intenção para realizar o cadastro no nosso sistema."
+    },
+    {
+      "intent": "informativo",
+      "examples": [
+        {
+          "text": "As águas são tão importantes assim?"
+        },
+        {
+          "text": "Estou motivado para explorar o oceano."
+        },
+        {
+          "text": "Eu quero saber mais sobre o Oceano"
+        },
+        {
+          "text": "Gostaria de me informar sobre o oceano"
+        },
+        {
+          "text": "Me eduque sobre o oceano"
+        },
+        {
+          "text": "Me fala sobre o Oceano"
+        },
+        {
+          "text": "Me passe conhecimento sobre o oceano"
+        },
+        {
+          "text": "Onde aprendo sobre os oceanos?"
+        },
+        {
+          "text": "Porque vocês falam do oceano?"
+        },
+        {
+          "text": "Quais informações você tem sobre o mar"
+        },
+        {
+          "text": "Queria aprender mais sobre o oceano"
+        },
+        {
+          "text": "Quero adquiri conhecimentos sobre os mares"
+        }
+      ],
+      "description": "Intenção que identifica o pedido de passar informações"
+    },
+    {
+      "intent": "Login",
+      "examples": [
+        {
+          "text": "Desejo entrar no sistema de vocês."
+        },
+        {
+          "text": "Desejo fazer login na plataforma de vocês."
+        },
+        {
+          "text": "Desejo iniciar sessão no sistema de vocês."
+        },
+        {
+          "text": "Gostaria de acessar o sistema de vocês."
+        },
+        {
+          "text": "Gostaria de entrar na conta do sistema de vocês."
+        },
+        {
+          "text": "Gostaria de fazer login no sistema de vocês."
+        },
+        {
+          "text": "Login"
+        },
+        {
+          "text": "Preciso acessar o sistema de vocês."
+        },
+        {
+          "text": "Preciso me autenticar no sistema de vocês."
+        },
+        {
+          "text": "Preciso me conectar ao sistema de vocês."
+        },
+        {
+          "text": "Quero acessar a conta no sistema de vocês."
+        },
+        {
+          "text": "Quero entrar na plataforma de vocês."
+        },
+        {
+          "text": "Quero fazer login"
+        },
+        {
+          "text": "Quero logar no sistema de vocês"
+        },
+        {
+          "text": "Quero me logar na plataforma de vocês."
+        }
+      ],
+      "description": "Intenção para reconhecer o pedido de login"
+    },
+    {
+      "intent": "Pegada-Carbono",
+      "examples": [
+        {
+          "text": "Como calcula a minha Pegada de Carbono"
+        },
+        {
+          "text": "Desejo medir minha pegada de carbono."
+        },
+        {
+          "text": "Desejo quantificar minha emissão de carbono."
+        },
+        {
+          "text": "Gostaria de avaliar minhas pegadas de carbono."
+        },
+        {
+          "text": "Me mostre a página onde calculo minha pegada de carbono"
+        },
+        {
+          "text": "Pretendo avaliar meu impacto de carbono."
+        },
+        {
+          "text": "Quero avaliar a quantidade de carbono que emito."
+        },
+        {
+          "text": "Quero calcular minha pegada de Carbono"
+        },
+        {
+          "text": "Quero medir meu impacto ambiental em termos de carbono."
+        },
+        {
+          "text": "Quero saber o rastro de carbono que eu deixo"
+        },
+        {
+          "text": "Quero verificar minhas emissões de carbono."
+        },
+        {
+          "text": "Tenho interesse em medir minhas emissões de carbono."
+        }
+      ],
+      "description": "Uma intenção para identificar se a pessoa quer calcular a pegada de carbono dela"
+    },
+    {
+      "intent": "Sobre",
+      "examples": [
+        {
+          "text": "Como descubro mais sobre o que vocês fazem?"
+        },
+        {
+          "text": "Como posso obter informações sobre a empresa de vocês?"
+        },
+        {
+          "text": "Como vejo informações sobre vocês?"
+        },
+        {
+          "text": "Fale mais sobre vocês"
+        },
+        {
+          "text": "Gostaria de acessar o perfil completo da organização de vocês, como faço isso?"
+        },
+        {
+          "text": "Onde encontro detalhes sobre a organização de vocês?"
+        },
+        {
+          "text": "Onde posso ler mais sobre a empresa de vocês?"
+        },
+        {
+          "text": "Quais são os dados que vocês disponibilizam"
+        },
+        {
+          "text": "Quem são as pessoas fundadoras?"
+        },
+        {
+          "text": "Quem são vocês?"
+        },
+        {
+          "text": "Quero conhecer quem fez esse sistema"
+        },
+        {
+          "text": "vocês são estudantes"
+        }
+      ],
+      "description": "Intenção para reconhecer o pedido de informações sobre nós"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sim_nao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Não",
+          "synonyms": [
+            "impossivel",
+            "jamais",
+            "Negativo",
+            "nunca"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sim",
+          "synonyms": [
+            "afirmativo",
+            "claro",
+            "com certeza",
+            "concordo",
+            "confirmo",
+            "Eu deixo",
+            "Pode",
+            "positivo"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "Tipo_cadastro",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Cliente",
+          "synonyms": [
+            "consumidor",
+            "Membro",
+            "participantes",
+            "User",
+            "Usuario",
+            "Usuarios"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Empresa",
+          "synonyms": [
+            "Companhias",
+            "Corporações",
+            "firmas",
+            "Indústrias",
+            "Négocios"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ongs",
+          "synonyms": [
+            "Associações sem fins lucrativos",
+            "Entidades sociais",
+            "Instituições não governamentais",
+            "Ong",
+            "Organizações"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "topicos_curiosidades",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Ecologia Azul",
+          "synonyms": [
+            "ecologia do mar",
+            "ecologia do oceano",
+            "ecologia subaquática"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Vida Marinha",
+          "synonyms": [
+            "ecossistema aquático",
+            "vida aquática",
+            "vida no mar",
+            "vida no oceano",
+            "vidas nos oceanos",
+            "vida submarina"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "topicos_info",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Biodiversidade e Ecossistemas",
+          "synonyms": [
+            "Ambientes naturais",
+            "Biomas",
+            "Diversidade biológica",
+            "Ecologia variada",
+            "Redes de Vida",
+            "Variação biológica"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Economia e Subsistência",
+          "synonyms": [
+            "Comércio",
+            "Finanças",
+            "Gestão financeira",
+            "Manutenção",
+            "Mercado",
+            "Sistema econômico",
+            "Sobrevivência",
+            "Sustento"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Recursos Naturais",
+          "synonyms": [
+            "Bens naturais",
+            "Matérias-primas naturais",
+            "Recursos ambientais",
+            "Recursos da natureza"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Regulação Climática",
+          "synonyms": [
+            "Controle climático",
+            "Equilíbrio climático",
+            "Estabilização climática",
+            "Gestão climática"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Transporte e Comércio",
+          "synonyms": [
+            "Comercialização",
+            "Deslocamento",
+            "Movimentação",
+            "Negócio",
+            "Transação",
+            "Transportação",
+            "Troca"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tudo",
+          "synonyms": [
+            "all",
+            "toda",
+            "todas",
+            "todes",
+            "todos"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "topicos_poluentes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Lixo Urbano e Sólidos Suspensos",
+          "synonyms": [
+            "Detritos urbanos e materiais suspensos",
+            "Lixo urbano e partículas em suspensão",
+            "Resíduos urbanos e sólidos em suspensão"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nutrientes em Excesso",
+          "synonyms": [
+            "Nutrientes em abundância",
+            "Sobrenutrição",
+            "Superalimentação"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Plâncton Tóxico",
+          "synonyms": [
+            "Plâncton danoso",
+            "Plâncton nocivo",
+            "Plâncton perigoso",
+            "Plâncton venenoso"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Plásticos",
+          "synonyms": [
+            "Material plástico",
+            "Polímeros",
+            "Polímeros sintéticos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Produtos Químicos e Resíduos Tóxicos",
+          "synonyms": [
+            "Produtos químicos perigosos",
+            "Resíduos contaminantes",
+            "Substâncias químicas prejudiciais"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bem vindo. Como posso lhe ser útil hoje?"
+              },
+              {
+                "text": "Olá tudo bem? O que deseja?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_7_1717456401766",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Email",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agora informe um email para podermos entrar em contato."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1717769692931",
+      "context": {
+        "nome": "<?input.text?>"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_10_1717769692932"
+    },
+    {
+      "type": "standard",
+      "title": "Senha",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agora nos informe uma senha para sua conta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1717769692932",
+      "context": {
+        "email": "<?input.text?>"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_11_1717769692932"
+    },
+    {
+      "type": "standard",
+      "title": "Empresa",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Informe o nome da Empresa"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_16_1717771146695",
+      "conditions": "@Tipo_cadastro:Empresa",
+      "dialog_node": "node_1_1717769245699"
+    },
+    {
+      "type": "standard",
+      "title": "Missão",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Escreva agora sobre a missão da ONG"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1717769692932",
+      "context": {
+        "senha": "<?input.text?>"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_12_1717769692932",
+      "previous_sibling": "node_14_1717769692932"
+    },
+    {
+      "type": "standard",
+      "title": "Visão",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agora informe sobre a sua visão da ONG"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1717769692932",
+      "context": {
+        "missao": "<?input.text?>"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_13_1717769692932"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Muito bem, cadastro de $nome com o email $email Realizado!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1717769692932",
+      "context": {
+        "senha": "<?input.text?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1717696495041"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_14_1717769692932"
+    },
+    {
+      "type": "folder",
+      "title": "Usuario",
+      "parent": "node_8_1717767248679",
+      "conditions": "@Tipo_cadastro:Cliente",
+      "dialog_node": "node_15_1717771144577",
+      "previous_sibling": "node_16_1717771146695"
+    },
+    {
+      "type": "folder",
+      "title": "Empresa",
+      "parent": "node_8_1717767248679",
+      "conditions": "@Tipo_cadastro:Empresa",
+      "dialog_node": "node_16_1717771146695",
+      "previous_sibling": "node_7_1717771116271"
+    },
+    {
+      "type": "standard",
+      "title": "Data Fund",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok $nome Agora informe a data de fundação da Ong"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1717767758224",
+      "context": {
+        "nome": "<?input.text?>"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_2_1717767928482"
+    },
+    {
+      "type": "standard",
+      "title": "Email",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agora informe um email para podermos entrar em contato"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1717767928482",
+      "context": {
+        "Data_Fundacao": "<?input.text?>"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_2_1717768313010"
+    },
+    {
+      "type": "standard",
+      "title": "Data Fund",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok $nome Agora informe a data de fundação da Ong"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1717769245699",
+      "context": {
+        "nome": "<?input.text?>"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_2_1717769245700",
+      "previous_sibling": "node_3_1717769245700"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entre no nosso site para poder realizar sua pegada de carbono"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1717456401766",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1717696495041"
+      },
+      "conditions": "#Pegada-Carbono",
+      "dialog_node": "node_3_1717456429883"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "tudo bem, estaremos aqui caso mude de opinião."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1717699813023",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1717696495041"
+      },
+      "conditions": "@sim_nao:Não",
+      "dialog_node": "node_3_1717766969362",
+      "previous_sibling": "node_5_1717765600209"
+    },
+    {
+      "type": "folder",
+      "title": "Informações",
+      "conditions": "#informativo",
+      "dialog_node": "node_3_1717767205324",
+      "previous_sibling": "node_3_1717770985500"
+    },
+    {
+      "type": "standard",
+      "title": "Email",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agora informe o email de contato para podermos entrar em contato"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1717769245699",
+      "context": {
+        "nome": "<?input.text?>"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_3_1717769245700"
+    },
+    {
+      "type": "folder",
+      "title": "Cadastro",
+      "conditions": "#Cadastro",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1717770985500",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O oceano é de vital importância para a vida na Terra, desempenhando múltiplos papéis  que sustentam a biodiversidade sendo eles a Biodiversidade e ecossistemas, regulação climática, recursos naturais, economia, transporte e comércio, papéis esses que oferecem para a humanidade um sistema de vida favorável."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "----------Opções Tópicos----------"
+              },
+              {
+                "text": "Escolha qual destas opções você deseja saber mais:"
+              },
+              {
+                "text": "- Biodiversidade e Ecossistemas"
+              },
+              {
+                "text": "- Regulação Climática"
+              },
+              {
+                "text": "- Recursos Naturais"
+              },
+              {
+                "text": "- Economia e Subsistência"
+              },
+              {
+                "text": "- Transporte e Comércio"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1717767205324",
+      "conditions": "#informativo",
+      "dialog_node": "node_4_1717690295325"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Muito bem, cadastro da $nome fundada em $Data_Fundacao do email $email, com a missao $missao e visao de $visao realizado!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1717768846289",
+      "context": {
+        "visao": "<?input.text?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1717696495041"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_4_1717768956557"
+    },
+    {
+      "type": "standard",
+      "title": "Descrição",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agora nos informe a descrição da sua empresa"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1717769245700",
+      "context": {
+        "email": "<?input.text?>"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_4_1717769245700"
+    },
+    {
+      "type": "standard",
+      "title": "Limpar Variaveis",
+      "output": {
+        "context": {}
+      },
+      "dialog_node": "node_5_1717696495041",
+      "previous_sibling": "Em outros casos"
+    },
+    {
+      "type": "frame",
+      "title": "continuação fluxo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os oceanos, que cobrem mais de 71% da superfície da Terra, enfrentam uma crescente ameaça de poluição causada por uma variedade de fontes humanas. Essa poluição pode ter efeitos devastadores sobre os ecossistemas marinhos, a biodiversidade e até mesmo a saúde humana. Aqui estão alguns dos principais poluentes do oceano e os impactos que causam:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1717696769079",
+      "conditions": "@topicos_info",
+      "dialog_node": "node_5_1717699813023"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os oceanos, que cobrem mais de 71% da superfície da Terra, enfrentam uma crescente ameaça de poluição causada por uma variedade de fontes humanas. Essa poluição pode ter efeitos devastadores sobre os ecossistemas marinhos, a biodiversidade e até mesmo a saúde humana. Aqui estão alguns dos principais poluentes do oceano e os impactos que causam:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "-----Opções-----",
+            "options": [
+              {
+                "label": "Plásticos",
+                "value": {
+                  "input": {
+                    "text": "Plásticos"
+                  }
+                }
+              },
+              {
+                "label": "Produtos Químicos e Resíduos Tóxicos",
+                "value": {
+                  "input": {
+                    "text": "Produtos Químicos e Resíduos Tóxicos"
+                  }
+                }
+              },
+              {
+                "label": "Nutrientes em Excesso",
+                "value": {
+                  "input": {
+                    "text": "Nutrientes em Excesso"
+                  }
+                }
+              },
+              {
+                "label": "Plâncton Tóxico",
+                "value": {
+                  "input": {
+                    "text": "Plâncton Tóxico"
+                  }
+                }
+              },
+              {
+                "label": "Lixo Urbano e Sólidos Suspensos",
+                "value": {
+                  "input": {
+                    "text": "Lixo Urbano e Sólidos Suspensos"
+                  }
+                }
+              }
+            ],
+            "description": "Escolha qual destas opções você deseja saber:",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1717699813023",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1717696495041"
+      },
+      "conditions": "@sim_nao:Sim",
+      "dialog_node": "node_5_1717765600209"
+    },
+    {
+      "type": "standard",
+      "title": "area",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Escreva agora sobre a area da sua Empresa"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1717769245700",
+      "context": {
+        "descricao": "<?input.text?>"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_5_1717769245700"
+    },
+    {
+      "type": "standard",
+      "title": "Opções",
+      "parent": "node_4_1717690295325",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@topicos_info",
+      "dialog_node": "node_6_1717696769079"
+    },
+    {
+      "type": "standard",
+      "title": "Visão",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agora informe sobre a sua visão da ONG"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1717768672543",
+      "context": {
+        "missao": "<?input.text?>"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_6_1717768846289"
+    },
+    {
+      "type": "standard",
+      "title": "Visão",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Muito bem, cadastro da $nome, do email $email, com a descrição $descricao e atuante na area $area. Realizado!!!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1717769245700",
+      "context": {
+        "area": "<?input.text?>"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_6_1717769245700"
+    },
+    {
+      "type": "folder",
+      "title": "Pegada de Carbono",
+      "conditions": "#Pegada-Carbono",
+      "dialog_node": "node_7_1717456401766",
+      "previous_sibling": "node_3_1717767205324"
+    },
+    {
+      "type": "standard",
+      "title": "Ong",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Informe o nome da Ong"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1717771116271",
+      "conditions": "@Tipo_cadastro:Ongs",
+      "dialog_node": "node_7_1717767758224"
+    },
+    {
+      "type": "standard",
+      "title": "Missão",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Escreva agora sobre a missão da ONG"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1717768622039",
+      "context": {
+        "senha": "<?input.text?>"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_7_1717768672543"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Muito bem, cadastro da $nome fundada em $Data_Fundacao do email $email, com a missao $missao e visao de $visao. Realizado!!!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1717769245700",
+      "context": {
+        "visao": "<?input.text?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1717696495041"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_7_1717769245700"
+    },
+    {
+      "type": "folder",
+      "title": "Ongs",
+      "parent": "node_8_1717767248679",
+      "conditions": "@Tipo_cadastro:Ongs",
+      "dialog_node": "node_7_1717771116271"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No nosso sistema possuimos 3 tipos de cadastros: "
+              },
+              {
+                "text": "- Para Usuarios"
+              },
+              {
+                "text": "- Para Ongs"
+              },
+              {
+                "text": "- Para Empresa"
+              },
+              {
+                "text": "Qual você Deseja?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1717770985500",
+      "conditions": "#Cadastro",
+      "dialog_node": "node_8_1717767248679"
+    },
+    {
+      "type": "standard",
+      "title": "User",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Informe o seu nome."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_15_1717771144577",
+      "conditions": "@Tipo_cadastro:Cliente",
+      "dialog_node": "node_8_1717769692931"
+    },
+    {
+      "type": "standard",
+      "title": "Senha",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agora nos informe uma senha para sua conta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1717768313010",
+      "context": {
+        "email": "<?input.text?>"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_9_1717768622039"
+    },
+    {
+      "type": "standard",
+      "title": "Data Fund",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok $nome Agora informe a data de fundação da ONG"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1717769692931",
+      "context": {
+        "nome": "<?input.text?>"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_9_1717769692932",
+      "previous_sibling": "node_10_1717769692932"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os oceanos abrigam uma vasta diversidade de vida marinha, desde minúsculos fitoplânctons até grandes mamíferos, como as baleias. Os recifes de coral, manguezais e estuários são ecossistemas particularmente ricos, fornecendo habitat e alimento para inúmeras espécies. Essa biodiversidade é crucial para a manutenção das cadeias alimentares e para o equilíbrio ecológico do planeta."
+              },
+              {
+                "text": "Os oceanos atuam como um imenso regulador climático. Eles absorvem aproximadamente 30% do dióxido de carbono (CO2) gerado pela atividade humana, ajudando a mitigar os efeitos das mudanças climáticas. Além disso, os oceanos armazenam e distribuem calor através das correntes marinhas, influenciando os padrões climáticos globais e locais. Sem essa regulação, as temperaturas terrestres seriam muito mais extremas e imprevisíveis."
+              },
+              {
+                "text": "Os oceanos são uma fonte abundante de recursos naturais. Eles fornecem alimentos, como peixes e frutos do mar, que são essenciais para a dieta de bilhões de pessoas em todo o mundo. Além disso, são explorados para a extração de minerais, petróleo e gás natural, e suas águas contêm ingredientes valiosos para a indústria farmacêutica."
+              },
+              {
+                "text": "Muitas economias dependem dos oceanos para a subsistência. A pesca, a aquicultura e o turismo costeiro são setores econômicos vitais que geram empregos e renda. Cidades e comunidades inteiras, especialmente em regiões costeiras, dependem dessas atividades para sobreviver."
+              },
+              {
+                "text": "Os oceanos são as grandes vias de transporte do comércio global. Cerca de 90% do comércio internacional é realizado por via marítima, o que torna os oceanos indispensáveis para a economia mundial. As rotas marítimas permitem a circulação de mercadorias em grande escala, conectando economias e facilitando o intercâmbio global de bens e serviços."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1717696769079",
+      "conditions": "@topicos_info:Tudo",
+      "dialog_node": "response_1_1717699249420",
+      "previous_sibling": "response_9_1717699199802"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Muitas economias dependem dos oceanos para a subsistência. A pesca, a aquicultura e o turismo costeiro são setores econômicos vitais que geram empregos e renda. Cidades e comunidades inteiras, especialmente em regiões costeiras, dependem dessas atividades para sobreviver."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1717696769079",
+      "conditions": "@topicos_info:(Economia e Subsistência)",
+      "dialog_node": "response_5_1717699068248",
+      "previous_sibling": "response_7_1717697010489"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os oceanos abrigam uma vasta diversidade de vida marinha, desde minúsculos fitoplânctons até grandes mamíferos, como as baleias. Os recifes de coral, manguezais e estuários são ecossistemas particularmente ricos, fornecendo habitat e alimento para inúmeras espécies. Essa biodiversidade é crucial para a manutenção das cadeias alimentares e para o equilíbrio ecológico do planeta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1717696769079",
+      "conditions": "@topicos_info:(Biodiversidade e Ecossistemas)",
+      "dialog_node": "response_6_1717699169441",
+      "previous_sibling": "node_5_1717699813023"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os oceanos são uma fonte abundante de recursos naturais. Eles fornecem alimentos, como peixes e frutos do mar, que são essenciais para a dieta de bilhões de pessoas em todo o mundo. Além disso, são explorados para a extração de minerais, petróleo e gás natural, e suas águas contêm ingredientes valiosos para a indústria farmacêutica."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1717696769079",
+      "conditions": "@topicos_info:(Recursos Naturais)",
+      "dialog_node": "response_7_1717697010489",
+      "previous_sibling": "response_6_1717699169441"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os oceanos são as grandes vias de transporte do comércio global. Cerca de 90% do comércio internacional é realizado por via marítima, o que torna os oceanos indispensáveis para a economia mundial. As rotas marítimas permitem a circulação de mercadorias em grande escala, conectando economias e facilitando o intercâmbio global de bens e serviços."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1717696769079",
+      "conditions": "@topicos_info:(Transporte e Comércio)",
+      "dialog_node": "response_8_1717699121705",
+      "previous_sibling": "response_5_1717699068248"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os oceanos atuam como um imenso regulador climático. Eles absorvem aproximadamente 30% do dióxido de carbono (CO2) gerado pela atividade humana, ajudando a mitigar os efeitos das mudanças climáticas. Além disso, os oceanos armazenam e distribuem calor através das correntes marinhas, influenciando os padrões climáticos globais e locais. Sem essa regulação, as temperaturas terrestres seriam muito mais extremas e imprevisíveis."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1717696769079",
+      "conditions": "@topicos_info:(Regulação Climática)",
+      "dialog_node": "response_9_1717699199802",
+      "previous_sibling": "response_8_1717699121705"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "Atendimento Startup VM-dialog"
+}
